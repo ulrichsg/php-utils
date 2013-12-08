@@ -1,0 +1,24 @@
+{
+    "name": "ulrichsg/php-utils",
+    "type": "library",
+    "description": "Helper functions for PHP 5.4+",
+    "homepage": "http://github.com/ulrichsg/php-utils",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ulrich Schmidt-Goertz",
+            "email": "ulrich@schmidt-goertz.de"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Ulrichsg": "src"
+        }
+    }
+}
